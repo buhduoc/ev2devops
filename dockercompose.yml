@@ -2,9 +2,12 @@ version: '3.8'
 
 services:
   backend:
+    image: buhdockerhub/evaluacion2:latest
+    ports:
+      - 8080:8080
   
   database:
-  image: buhdockerhub:evaluacion2:latest
+  image: buhdockerhub/evaluacion2:latest
   environment:
     MYSQL_ROOT_PASSWORD: rootpassword
     MYSQL_DATABASE: rentcar_db
