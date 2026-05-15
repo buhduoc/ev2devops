@@ -4,7 +4,7 @@ services:
   backend:
     image: buhdockerhub/evaluacion2:latest
     ports:
-      - 8080:8080
+      - "8080:8080"
   
   database:
   image: buhdockerhub/evaluacion2:latest
