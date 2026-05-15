@@ -7,7 +7,7 @@ services:
       - "8080:8080"
   
   database:
-  image: buhdockerhub/evaluacion2:latest
+  image: mysql:8.0
   environment:
     MYSQL_ROOT_PASSWORD: rootpassword
     MYSQL_DATABASE: rentcar_db
